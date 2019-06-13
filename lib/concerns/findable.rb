@@ -1,4 +1,4 @@
- require_relative './lib/concerns/memorable.rb'
+
 module Findable
 module ClassMethods
 
