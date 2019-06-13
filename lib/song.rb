@@ -3,7 +3,7 @@ require_relative './concerns/memorable.rb'
 
 class Song
   extend Memorable::ClassMethods
-  extend Findable::ClassMethodsMethods
+  extend Findable::ClassMethods
   include Memorable::InstanceMethods
   include Paramable::InstanceMethods
   
