@@ -3,7 +3,7 @@ require_relative './concerns/memorable.rb'
 
 class Artist
   extend Memorable::ClassMethods
-  extend Findable::ClassMethodsMethods
+  extend Findable::ClassMethods
   include Memorable::InstanceMethods 
   include Paramable::InstanceMethods
   attr_accessor :name
