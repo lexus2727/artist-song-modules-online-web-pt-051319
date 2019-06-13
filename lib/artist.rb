@@ -2,7 +2,7 @@ require 'pry'
 require_relative './concerns/memorable.rb'
 
 class Artist
-  extend Memorable::ClassInstances
+  extend Memorable::ClassMethods
   include Memorable::InstanceMethods 
   include Paramable::InstanceMethods
   attr_accessor :name
